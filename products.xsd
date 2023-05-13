@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="productsList">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="product" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="productName" type="xs:string"></xs:element>
+                            <xs:element name="productPrice" type="xs:string"></xs:element>
+                            <xs:element name="productRatting" type="xs:decimal"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+
+            <xs:attribute name="order"></xs:attribute>
+
+
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

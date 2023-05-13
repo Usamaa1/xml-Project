@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <?xml-model href="products.dtd" type="application/xml-dtd"?> -->
+<!-- <?xml-model href="products.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+
+
+<productsList>
+
+    <product>
+        <productName>Headphone</productName>
+        <productPrice>32000</productPrice>
+        <discountPrice>2000</discountPrice>
+        <productRatting>5.0</productRatting>
+    </product>
+
+    <product>
+        <productName>Keyboard</productName>
+        <productPrice>590</productPrice>
+        <discountPrice>400</discountPrice>
+        <productRatting>4.0</productRatting>
+    </product>
+
+    <product>
+        <productName>Mouse</productName>
+        <productPrice>700</productPrice>
+        <discountPrice>500</discountPrice>
+        <productRatting>2.8</productRatting>
+    </product>
+
+   <product>
+        <productName>Abacus</productName>
+        <productPrice>540</productPrice>
+        <discountPrice>300</discountPrice>
+        <productRatting>1.8</productRatting>
+    </product>
+
+
+
+</productsList>
